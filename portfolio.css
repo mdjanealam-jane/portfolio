@@ -30,7 +30,9 @@
 header{
     background-color: #FFF8F3;
     padding-top: 51px;
-   
+    background: url(images/developer.png) , url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
     
 }
 nav{
@@ -52,4 +54,26 @@ nav ul{
 nav ul a{
     text-decoration: none;
     font-size: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 66px 38px 0 230px;
+}
+.banner h2{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner h1{
+    font-size: 85px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.banner p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
 }
