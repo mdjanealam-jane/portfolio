@@ -113,4 +113,23 @@ nav ul a{
 }
 .skill-cards-container{
     display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.skill-cards-container .skill-cards{
+    text-align: left;
+    box-shadow: 10px 10px 10px #d4d2d2;
+    padding: 2px;
+    
+}
+.skill-icon{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill-heading{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.skill-heading-p{
+    font-size: 16px;
 }
