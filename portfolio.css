@@ -111,3 +111,6 @@ nav ul a{
     justify-content: space-around;
     
 }
+.skill-cards-container{
+    display: flex;
+}
